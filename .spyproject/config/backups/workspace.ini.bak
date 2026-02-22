@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['main.py', '__init__.py', 'services/inventory_system.py', 'employeeData.txt', 'models/equipment.py', 'models/employee.py', 'models/manager.py', 'models/report.py', 'models/skill.py', 'models/transaction.py', 'services/__init__.py', 'services/authentication_service.py', 'tests/test_ecs.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+

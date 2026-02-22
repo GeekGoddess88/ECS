@@ -1,0 +1,12 @@
+101,Bob,Electrical,Manager
+102,George,General,Manager
+202,Joe,Mechanical,Employee
+203,Frank,General,Employee
+204,Percy,Mechanical,Employee
+205,Fred,Electrical,Employee
+206,Tom,General,Employee
+207,Jan,Electrical,Employee
+208,Ilene,Mechanical,Employee
+209,Bill,Electrical,Employee
+302,Tim,General,Employee
+303,Dave,Mechanical,Employee
