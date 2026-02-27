@@ -3,6 +3,7 @@ from services.authentication_service import AuthenticationService
 from models.skill import Skill
 from models.report import Report
 from models.equipment import Equipment
+from models.transaction import Transaction
 import sys
 import os
 
@@ -56,7 +57,7 @@ def main():
             for i, eq in enumerate(available_equipment):
                 print(f"{i + 1}. {eq.name}.")
 
-            choice = int(input("Select equipment to checkout: ")) - 1
+            choice = int(input("Select equipment to checkout: ")) - 1 
             selected_equipment = available_equipment[choice]
             print("Item checked out.")
             inventory_system.process_checkout(employee, selected_equipment)
@@ -69,7 +70,6 @@ def main():
         print("Employee not found. Please try again.")
 
 
-#
-#
+
 if __name__ == "__main__":
     main()
